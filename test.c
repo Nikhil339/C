@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <time.h>
 
 int main(void){
-    printf("%d",1029/10);
+    long t = time(NULL);
+    printf("%ld", t);
     return 0;
 }
